@@ -1,3 +1,8 @@
+---
+layout: index
+title: Home
+---
+
 # Kishan Mistry
 
   * item 1
