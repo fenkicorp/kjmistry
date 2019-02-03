@@ -3,6 +3,8 @@ layout: default
 title: Treatments
 youtubeId: K76L9TWdfh0
 ---
+## Crown
+[click here]({{site.url}}/treatments/milledcrown.md) for more details
 
 A list of treatments here
 * item
