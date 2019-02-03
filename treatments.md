@@ -15,7 +15,7 @@ A list of treatments here
 
 | Tables        | Are           |
 | ------------- |:-------------|
-| [CAD/CAD Crown]({{site.url}}/treatments/milledcrown.md)   | Milling crowns
+| [CAD-CAD Crown]({{site.url}}/treatments/milling-a-crown)   | Milling crowns
 | col 2 is      | centered      |  
 | zebra stri        pes | are neat      |   
 | zebra stri        pes | ardqwdqwdqwdqwdqwde neat      |                                     
