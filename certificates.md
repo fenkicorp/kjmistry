@@ -1,26 +1,13 @@
 ---
 layout: default
 title: Certificates
+permalink: certificates
 ---
 # Certificates
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/Cascade Handout - Of Art the Communication - Of Art the Communication - HEENW 2018.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
-* [digitaldentistry]({{ site.url }}/assets/digitaldentistry.pdf)
+
+{% assign image_files = site.static_files%}
+{% for myimage in image_files %}
+{% if myimage.path contains '/certificates/' %}
+* [{{myimage.basename}}]({{myimage.path}}){:target="_blank"}
+{% endif %}
+{% endfor %}
