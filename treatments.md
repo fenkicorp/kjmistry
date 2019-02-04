@@ -12,7 +12,7 @@ permalink: treatments
 {% for t in site.treatments %}
   <tr>
     <td><a href="{{t.url}}">{{t.title}}</a></td>
-    <td>{{t.title}}</td>
+    <td>{{t.description}}</td>
   </tr>
 {% endfor %}
 </tbody>

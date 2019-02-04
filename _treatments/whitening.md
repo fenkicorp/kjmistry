@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teeth whitening
+title: Teeth Whitening
 youtubeId: LiFmmmU_ZL8
 description: Basic bleaching
 permalink: /treatments/teeth-whitening/
