@@ -6,6 +6,14 @@ permalink: treatments
 ---
 ## Treatments
 
-| Tables        | Are           |
-| ------------- |:-------------|
-| [CAD-CAD Crown]({{site.url}}/treatments/milling-a-crown)   | Milling crowns
+
+<table>
+<tbody>
+{% for t in site.treatments %}
+  <tr>
+    <td><a href="{{t.url}}">{{t.title}}</a></td>
+    <td>{{t.title}}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
