@@ -1,11 +1,17 @@
 ---
 layout: default
-title: Teeth Whitening
+title: UR2m fractured composite restoration
 youtubeId: LiFmmmU_ZL8
-description: Basic bleaching
-permalink: /treatments/teeth-whitening/
+description: UR2m composite before & after
+permalink: /treatments/ur2m_rest/
 ---
-![milled crown](https://cdn.shopify.com/s/files/1/1255/8263/products/Screen_Shot_2018-09-01_at_4.56.34_PM_3440c7ed-3d0b-41ae-b026-8812e8d9ead8_1024x1024@2x.progressive.png.jpg?v=1543097453){:class="img-responsive"}
-Teeth whitening process description here
 
-{% include youtubePlayer.html id=page.youtubeId %}
+<table class="image">
+<caption align="bottom">dfefefe</caption>
+<tr><td><img src="/images/ur2m/b4.jpg" alt=""/></td></tr>
+</table>
+
+<table class="image">
+<caption align="bottom">dfefefe</caption>
+<tr><td><img src="/images/ur2m/after.jpg" alt=""/></td></tr>
+</table>

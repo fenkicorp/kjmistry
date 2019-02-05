@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Milled Crown
+title: CAD/CAM Emax Crown
 youtubeId: _Xcg1qWM040
-description: Milling crowns
+description: Utilising Planmeca Romexis® software
 permalink: /treatments/milling-a-crown/
 ---
 ![milled crown](/images/crown.jpg){:class="img-responsive"}
