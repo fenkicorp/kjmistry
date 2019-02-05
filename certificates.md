@@ -3,7 +3,7 @@ layout: default
 title: Certificates
 permalink: certificates
 ---
-# Certificates
+## Certificates
 
 {% assign image_files = site.static_files%}
 {% for myimage in image_files %}
