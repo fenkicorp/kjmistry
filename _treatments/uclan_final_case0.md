@@ -6,4 +6,5 @@ description: Uclan final year case presentation 2
 permalink: /treatments/uclan_final_case2/
 ---
 <object data="/assets/uclanfinalcase2.pdf" width="1000" height="1000" type='application/pdf'/>
-Teeth whitening process description here
+
+Case demonstrating staging treatment in a high caries risk patient
