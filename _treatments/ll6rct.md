@@ -4,6 +4,7 @@ title: LL6 RCT
 youtubeId: LiFmmmU_ZL8
 description: RCT done via rotary Protaper system
 permalink: /treatments/rct_rotary_protaper/
+order: 2
 ---
 <table class="image">
 <caption align="bottom">Pre-op radiograph.</caption>

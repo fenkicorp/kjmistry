@@ -4,6 +4,7 @@ title: UR2m fractured composite restoration
 youtubeId: LiFmmmU_ZL8
 description: UR2m composite before & after
 permalink: /treatments/ur2m_rest/
+order: 8
 ---
 
 <table class="image">

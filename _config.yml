@@ -32,6 +32,8 @@ collections:
     output: true
   clinics:
     output: true
+  radiographs:
+    output: true
 
 # Build settings
 markdown: kramdown

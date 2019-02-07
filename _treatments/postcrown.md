@@ -4,6 +4,7 @@ title: Post Crown
 youtubeId: LiFmmmU_ZL8
 description: Bent post from heavy occlusion
 permalink: /treatments/postcrown/
+order: 4
 ---
 
 <table class="image">

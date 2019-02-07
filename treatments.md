@@ -10,7 +10,8 @@ icon: "fas fa-tooth"
 
 <table>
 <tbody>
-{% for t in site.treatments %}
+{% assign orderedTreatments = site.treatments | sort:"order"%}
+{% for t in orderedTreatments %}
   <tr>
     <td><a href="{{t.url}}">{{t.title}}</a></td>
     <td>{{t.description}}</td>
