@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Calm Dental Care
+title: Calm Dental Care, Urmston, Manchester
 youtubeId:
-description: Urmston, Manchester
+description: Dental Foundation Training practice @ 1 year
 permalink: /clinics/calmdentalcare/
 ---
 

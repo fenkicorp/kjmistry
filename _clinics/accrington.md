@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Oak house Dental Centre
+title: Oak house Dental Centre, Accrington
 youtubeId:
-description: Accrington
+description: UCLAN training clinic @ 3 years
 permalink: /clinics/accrington/
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Bupa Dental Care
+title: Bupa Dental Care, Burnley
 youtubeId:
-description: Burnley
+description: UCLAN training clinic @ 1 year
 permalink: /clinics/burnley/
 ---
 

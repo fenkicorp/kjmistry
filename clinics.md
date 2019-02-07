@@ -6,7 +6,7 @@ permalink: clinics
 ---
 ## Clinics
 
-gdgdfgdfg
+A list of clinics I have worked in
 
 <table>
 <tbody>
