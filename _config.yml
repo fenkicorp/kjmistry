@@ -30,6 +30,8 @@ header_pages:
 collections:
   treatments:
     output: true
+  clinics:
+    output: true
 
 # Build settings
 markdown: kramdown
