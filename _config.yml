@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: kishan-mistry-9b4a5334
 show_excerpts: true
+google_analytics: UA-134142648-1
 header_pages:
   - about.md
   - treatments.md
@@ -34,6 +35,7 @@ collections:
     output: true
   radiographs:
     output: true
+
 
 # Build settings
 markdown: kramdown
