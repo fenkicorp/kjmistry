@@ -5,4 +5,5 @@ youtubeId:
 description: Dental Foundation Training practice for 1 year
 permalink: /clinics/calmdentalcare/
 clinicUrl: http://www.calmdentalcare.co.uk
+order: 1
 ---

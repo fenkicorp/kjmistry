@@ -1,21 +1,23 @@
 ---
 layout: default
-title: Radiographs
+title: Endodontic Radiographs
 youtubeId: LiFmmmU_ZL8
-description: RCT's
+description: Pre + post operative periapicals showing completed RCTs
 permalink: /treatments/radiographs/
 order: 1
 ---
 ## Radiographs
-<table>
-<tbody>
 {% assign orderedTreatments = site.radiographs | sort:"order" %}
 {% for t in orderedTreatments %}
+<table>
+<tbody>
   <tr>
-    <td>{{t.description}}</td>
-        <td style="width:25%"><img src="{{t.image}}" /></td>
-                <td style="width:25%"><img src="{{t.image2}}" /></td>
+        <td style="width:50%"><img src="{{t.image}}" /></td>
+                <td style="width:50%"><img src="{{t.image2}}" /></td>
   </tr>
+  <tr>
+  <td colspan="2">{{t.description}}</td>
+  </tr>
+  </tbody>
+  </table>
 {% endfor %}
-</tbody>
-</table>

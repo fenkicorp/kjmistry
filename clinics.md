@@ -9,9 +9,11 @@ icon: "far fa-hospital"
 
 A list of clinics I have worked in
 
+
 <table>
 <tbody>
-{% for t in site.clinics %}
+{% assign orderedClinics = site.clinics | sort:"order" %}
+{% for t in orderedClinics %}
   <tr>
     <td><a href="{{t.clinicUrl}}">{{t.title}}</a></td>
     <td>{{t.description}}</td>
