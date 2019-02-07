@@ -8,7 +8,7 @@ permalink: /treatments/ur2m_rest/
 
 <table class="image">
 <caption align="bottom">Patient presented with UR2m failed composite restoration.</caption>
-<tr><td><img src="/images/ur2m/b4.jpg" alt=""/></td></tr>
+<tr><td><img src="/images/ur2m/b4.JPG" alt=""/></td></tr>
 </table>
 
 <table class="image">
