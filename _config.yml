@@ -29,7 +29,6 @@ header_pages:
   - clinics.md
 collections:
   treatments:
-    clinics:
     output: true
 
 # Build settings
