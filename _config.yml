@@ -28,7 +28,7 @@ header_pages:
   - certificates.md
   - clinics.md
 collections:
-  treatments:
+  treatments, clinics:
     output: true
 
 # Build settings
