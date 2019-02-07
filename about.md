@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Kishan Mistry](http://www.calmdentalcare.co.uk/Calm_Dental_Care/Team_files/IMG_5439.jpg)
+![Kishan Mistry](/images/kish.jpg){:class="img-responsive"}
 
-Description about KJMistry
-Dentist & Pharmacist
+
+A dental foundation trainee with an interest in digital dentistry

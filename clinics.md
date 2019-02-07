@@ -6,6 +6,7 @@ permalink: clinics
 ---
 ## Clinics
 
+gdgdfgdfg
 
 <table>
 <tbody>
