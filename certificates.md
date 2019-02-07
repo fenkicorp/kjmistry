@@ -2,6 +2,7 @@
 layout: default
 title: Certificates
 permalink: certificates
+icon: "fas fa-award"
 ---
 ## Certificates
 

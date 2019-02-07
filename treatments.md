@@ -3,6 +3,7 @@ layout: default
 title: Treatments
 youtubeId: K76L9TWdfh0
 permalink: treatments
+icon: "fas fa-tooth"
 ---
 ## Treatments
 

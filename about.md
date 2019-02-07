@@ -2,7 +2,15 @@
 layout: default
 title: About
 permalink: /about/
+icon: "far fa-user"
 ---
-<img src="/images/kish.jpg" alt="drawing" width="300"/>
+
+
+<center>
+<img src="/images/kishc.png" alt="drawing" width="300"  />
+
+<br />
+<br />
 
 A dental foundation trainee with an interest in digital dentistry
+</center>
