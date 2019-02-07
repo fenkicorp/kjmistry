@@ -1,5 +1,11 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+.animated{
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-fill-mode:none!important;
+  animation-fill-mode:none!important;
+}
 
 @import "minima";
