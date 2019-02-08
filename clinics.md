@@ -15,9 +15,11 @@ A list of clinics I have worked in
 {% assign orderedClinics = site.clinics | sort:"order" %}
 {% for t in orderedClinics %}
   <tr>
-          <td style= "width:30%">{{t.fromDate}} - {{t.toDate}}</td>
+    <td style= "width:30%">{{t.fromDate}} - {{t.toDate}}</td>
+    <td> <img src="{{t.logoImage}}" width="200" /></td>
     <td><a href="{{t.clinicUrl}}">{{t.title}}</a></td>
     <td>{{t.description}}</td>
+
 
   </tr>
 {% endfor %}

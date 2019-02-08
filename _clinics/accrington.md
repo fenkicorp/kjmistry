@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Oak house Dental Centre, Accrington
+title: Oak House Dental Centre, Accrington
 youtubeId:
 description: UCLAN training clinic
 permalink: /clinics/accrington/
@@ -8,4 +8,5 @@ clinicUrl: https://www.nhs.uk/Services/dentists/Overview/DefaultView.aspx?id=977
 order: 3
 fromDate: Sept 2014
 toDate: May 2018
+logoImage: /images/accrington.jpg
 ---

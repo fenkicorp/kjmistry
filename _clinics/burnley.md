@@ -8,4 +8,5 @@ clinicUrl: https://www.oasisdentalcare.co.uk/practices/oasis-dental-care-burnley
 order: 2
 fromDate: May 2017
 toDate: May 2018
+logoImage: /images/bupa1.png
 ---

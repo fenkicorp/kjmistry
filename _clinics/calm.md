@@ -8,4 +8,5 @@ clinicUrl: http://www.calmdentalcare.co.uk
 order: 1
 fromDate: Sept 2018
 toDate: present
+logoImage: /images/calm.jpg
 ---
