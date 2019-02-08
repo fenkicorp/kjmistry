@@ -43,6 +43,12 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+social:
+  name: Kishan Mistry
+  links:
+    - https://www.linkedin.com/in/kishan-mistry-9b4a5334/
+lang: en_GB
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
