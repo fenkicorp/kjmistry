@@ -253,3 +253,28 @@
     }
   }
 }
+
+.sidebar{
+  width:270px;
+  text-align: right;
+      float:right;
+    border: 0px solid black;
+
+margin-top: auto;
+margin-bottom: auto;
+height: 100px;
+
+    @include media-query($on-palm) {
+      float:none;
+        text-align: center;
+          width:100%;
+    }
+}
+
+.mainbar {
+  width:400px;
+  border: 0px solid black;
+  @include media-query($on-palm) {
+        width:100%;
+  }
+}

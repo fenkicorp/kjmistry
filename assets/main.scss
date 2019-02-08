@@ -9,3 +9,18 @@
 }
 
 @import "minima";
+
+#kish {
+   background-image: url('/images/kishbw.png');
+   width: 400px;
+   height: 300px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   @include media-query($on-palm) {
+         width:100%;
+   }
+   &:hover {
+      background-image: url('/images/kishc.png');
+   }
+}
