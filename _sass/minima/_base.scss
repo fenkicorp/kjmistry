@@ -17,6 +17,9 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
+  background-image: url("/images/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -189,6 +192,15 @@ pre {
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
+}
+
+.outer-wrapper{
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+
 }
 
 
