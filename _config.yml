@@ -37,8 +37,8 @@ collections:
   radiographs:
     output: true
 
-plugins:
-  - jekyll-sitemap
+
+
 
 
 # Build settings
@@ -46,6 +46,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 social:
   name: Kishan Mistry
   links:
