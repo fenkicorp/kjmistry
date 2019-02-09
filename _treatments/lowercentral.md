@@ -10,7 +10,7 @@ order: 10
 <table class="image">
 <caption align="bottom">Patient wanted Co-Cr lower dentures, patient was unsure whether a single lower central tooth would be suitable to fill gap.
 </caption>
-<tr><td><img src="/images/karl/1.jpg" alt=""/></td></tr>
+<tr><td><img src="/images/karl/1d.jpg" alt=""/></td></tr>
 </table>
 
 <table class="image">
@@ -24,5 +24,5 @@ GIMP was used to show patient what a single incisor filling the gap would look l
 <caption align="bottom">
 On reflection, the digital mock up did not take into account the skeletal framework shining through the tooth.
 </caption>
-<tr><td><img src="/images/karl/3.jpg" alt=""/></td></tr>
+<tr><td><img src="/images/karl/3d.jpg" alt=""/></td></tr>
 </table>
