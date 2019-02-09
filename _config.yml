@@ -37,6 +37,9 @@ collections:
   radiographs:
     output: true
 
+plugins:
+  - jekyll-sitemap
+
 
 # Build settings
 markdown: kramdown
