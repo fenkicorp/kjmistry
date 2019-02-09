@@ -9,7 +9,7 @@ order: 9
 
 <table class="image">
 <caption align="bottom">Patient was not happy with upper central incisor length.</caption>
-<tr><td><img src="/images/fiona/1.jpg" alt=""/></td></tr>
+<tr><td><img src="/images/fiona/1d.jpg" alt=""/></td></tr>
 </table>
 
 <table class="image">
