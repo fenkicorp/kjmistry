@@ -5,6 +5,7 @@ youtubeId: LiFmmmU_ZL8
 description: Patient unsure on the appearance of a lower denture. GIMP used to show appearance.
 permalink: /treatments/lower_anterior_waxup/
 order: 10
+tags: [2,3]
 ---
 
 <div class="row">

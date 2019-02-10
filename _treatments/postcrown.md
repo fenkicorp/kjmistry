@@ -5,6 +5,7 @@ youtubeId: LiFmmmU_ZL8
 description: Bent post from heavy occlusion
 permalink: /treatments/postcrown/
 order: 4
+tags: [12,7]
 ---
 
 <table class="image">

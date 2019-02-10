@@ -5,6 +5,7 @@ youtubeId: LiFmmmU_ZL8
 description: Pre + post operative periapicals showing completed RCTs
 permalink: /treatments/radiographs/
 order: 1
+tags: [4,21]
 ---
 
 {% assign orderedTreatments = site.radiographs | sort:"order" %}

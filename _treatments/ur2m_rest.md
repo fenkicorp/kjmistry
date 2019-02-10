@@ -5,6 +5,7 @@ youtubeId: LiFmmmU_ZL8
 description: UR2m composite before & after
 permalink: /treatments/ur2m_rest/
 order: 8
+tags: [3]
 ---
 
 <div class="row">

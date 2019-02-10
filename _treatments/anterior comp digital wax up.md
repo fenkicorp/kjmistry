@@ -5,7 +5,7 @@ youtubeId: LiFmmmU_ZL8
 description: Example of building composites through GIMP software
 permalink: /treatments/anterior_digital_composites/
 order: 9
-tags: [1, 2]
+tags: [2,3]
 ---
 
 <div class="row">

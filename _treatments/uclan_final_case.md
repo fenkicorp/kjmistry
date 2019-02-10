@@ -5,6 +5,7 @@ youtubeId: LiFmmmU_ZL8
 description: Uclan final year seen case presentation
 permalink: /treatments/uclan_final_case/
 order: 6
+tags: [3,4,7,15,14,22]
 ---
 
 Case demonstrating management of high caries risk and surgical extraction
