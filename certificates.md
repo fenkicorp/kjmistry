@@ -9,8 +9,6 @@ icon: "fas fa-award"
 
 <div class="row">
 
-
-
 {% assign categories = site.certificate-categories | sort:"order" %}
 {% for t in categories %}
 
