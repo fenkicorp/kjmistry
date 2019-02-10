@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: treatment
 title: Post Crown
 youtubeId: LiFmmmU_ZL8
 description: Bent post from heavy occlusion
 permalink: /treatments/postcrown/
 order: 4
 ---
-## {{page.title}}
 
 <table class="image">
 <caption align="bottom">Periapical showing a mobile UL1 post crown bucally placed. UL1 post crown has been there ~ 10 years</caption>

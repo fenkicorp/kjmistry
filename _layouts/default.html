@@ -53,13 +53,32 @@
 
           {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
+          {%- if my_page.title == "Treatments" -%}
+          <li class="nav-item dropdown {% if page.url == my_page.url %}active{% endif %}">
+            <a href="#"
+               class="nav-link dropdown-toggle"
+               id="navbarDropdown"
+               role="button"
+               data-toggle="dropdown"
+               aria-haspopup="true"
+               aria-expanded="false">
+              <i class="{{my_page.icon}}"></i>&nbsp;&nbsp; {{ my_page.title | escape }}
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+              {% assign orderedTreatments = site.treatments | sort:"order"%}
+              {% for t in orderedTreatments %}
+                <a class="dropdown-item" href="{{t.url}}">{{t.title}}</a>
+              {% endfor %}
+            </div>
+          </li>
+          {%- else -%}
           <li class="nav-item {% if page.url == my_page.url %}active{% endif %}">
             <a href="{{ my_page.url | relative_url }}" class="nav-link">
-              <i class="{{my_page.icon}} animated jackInTheBox"></i>&nbsp;&nbsp;{{ my_page.title | escape }}
+              <i class="{{my_page.icon}}"></i>&nbsp;&nbsp;{{ my_page.title | escape }}
             </a>
-          </li>
-          {%- endif -%}
+          </li>          {%- endif -%}
           {%- endfor -%}
 
         </ul>

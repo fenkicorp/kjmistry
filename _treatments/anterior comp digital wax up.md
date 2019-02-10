@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: treatment
 title: Upper Centrals Digital Wax Up
 youtubeId: LiFmmmU_ZL8
 description: Example of building composites through GIMP software
 permalink: /treatments/anterior_digital_composites/
 order: 9
 ---
-## {{page.title}}
 
 <div class="row">
   <div class="col-md-6">
