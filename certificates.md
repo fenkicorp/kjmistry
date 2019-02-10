@@ -7,8 +7,14 @@ icon: "fas fa-award"
 ## Certificates
 <br />
 
+<div class="row">
+
+
+
 {% assign categories = site.certificate-categories | sort:"order" %}
 {% for t in categories %}
+
+<div class="col-md-6">
   <h4>{{t.name}}</h4>
   <hr />
 
@@ -25,4 +31,7 @@ icon: "fas fa-award"
     {% endif %}
   {% endfor %}
   </table>
+  </div>
 {% endfor %}
+
+</div>
