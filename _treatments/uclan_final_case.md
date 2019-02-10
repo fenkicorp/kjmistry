@@ -6,5 +6,8 @@ description: Uclan final year seen case presentation
 permalink: /treatments/uclan_final_case/
 order: 6
 ---
+## {{page.title}}
+
 Case demonstrating management of high caries risk and surgical extraction
-<object data="/assets/uclanfinalcase.pdf" width="1000" height="1000" type='application/pdf'/>
+
+<object data="/assets/uclanfinalcase.pdf" width="100%" height="1000" type='application/pdf'/>

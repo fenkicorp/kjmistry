@@ -8,7 +8,7 @@ icon: "fas fa-tooth"
 ## Treatments
 
 
-<table>
+<table class="table table-striped">
 <tbody>
 {% assign orderedTreatments = site.treatments | sort:"order"%}
 {% for t in orderedTreatments %}

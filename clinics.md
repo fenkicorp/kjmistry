@@ -5,23 +5,35 @@ youtubeId:
 permalink: clinics
 icon: "far fa-hospital"
 ---
+
 ## Clinics
 
-A list of clinics I have worked in
+<div class="row">
+  {% assign orderedClinics = site.clinics | sort:"order" %}
+  {% for t in orderedClinics %}
+  <div class="col-md-12 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-2">
+            <img src="{{t.logoImage}}" class="img-fluid" alt="{{t.title}}">
+          </div>
+          <div class="col-10">
+            <div class="card-title">
+              <a href="{{t.clinicUrl}}" target="blank">{{t.title}} - <i class="fas fa-external-link-alt
+"></i></a>
+            </div>
+            <h6 class="card-subtitle mb-2 text-muted">{{t.fromDate}} - {{t.toDate}}</h6>
+            <div class="card-text">{{t.description}}</div>
+          </div>
+        </div>
 
 
-<table>
-<tbody>
-{% assign orderedClinics = site.clinics | sort:"order" %}
-{% for t in orderedClinics %}
-  <tr>
-    <td style= "width:30%">{{t.fromDate}} - {{t.toDate}}</td>
-    <td> <img src="{{t.logoImage}}" width="200" /></td>
-    <td><a href="{{t.clinicUrl}}">{{t.title}}</a></td>
-    <td>{{t.description}}</td>
 
 
-  </tr>
-{% endfor %}
-</tbody>
-</table>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
