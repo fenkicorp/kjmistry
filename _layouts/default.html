@@ -42,7 +42,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
       <a href="/" class="navbar-brand mb-0 h1">
-        <i class="fas fa-user-graduate fa-lg animated jackInTheBox delay-1s"></i><span class="ml-2">{{site.title}}</span>
+        <i class="fas fa-user-graduate fa-lg animated jackInTheBox"></i><span class="ml-2">{{site.title}}</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
           {%- if my_page.title -%}
           <li class="nav-item {% if page.url == my_page.url %}active{% endif %}">
             <a href="{{ my_page.url | relative_url }}" class="nav-link">
-              <i class="{{my_page.icon}}"></i>&nbsp;&nbsp;{{ my_page.title | escape }}
+              <i class="{{my_page.icon}} animated jackInTheBox"></i>&nbsp;&nbsp;{{ my_page.title | escape }}
             </a>
           </li>
           {%- endif -%}
