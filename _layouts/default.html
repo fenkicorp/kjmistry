@@ -54,7 +54,7 @@
           {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title == "Treatments" -%}
-          <li class="nav-item dropdown {% if page.url == my_page.url %}active{% endif %}">
+          <li class="nav-item dropdown {% if page.url contains '/treatments/'  %}active{% endif %}">
             <a href="#"
                class="nav-link dropdown-toggle"
                id="navbarDropdown"
@@ -69,7 +69,7 @@
 
               {% assign orderedTreatments = site.treatments | sort:"order"%}
               {% for t in orderedTreatments %}
-                <a class="dropdown-item" href="{{t.url}}">{{t.title}}</a>
+                <a class="dropdown-item {% if page.url == t.url %}active{% endif %}" href="{{t.url}}">{{t.title}}</a>
               {% endfor %}
             </div>
           </li>
