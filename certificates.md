@@ -19,7 +19,7 @@ icon: "fas fa-award"
     {% if c.categoryId == t.categoryId %}
     <tr>
      <td>
-     <a href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>  {{c.name}}</a>
+     <a href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>&nbsp;&nbsp;{{c.name}}</a>
      </td>
     </tr>
     {% endif %}
