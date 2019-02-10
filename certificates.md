@@ -5,20 +5,23 @@ permalink: certificates
 icon: "fas fa-award"
 ---
 ## Certificates
+<br />
 
-{% assign image_files = site.static_files%}
+{% assign categories = site.certificate-categories | sort:"order" %}
+{% for t in categories %}
+  <h4>{{t.name}}</h4>
+  <hr />
 
-<table class="table table-striped">
+  <table class="table table-striped">
+  {% assign certs = site.certificates | where: "categoryId", 1 %}
+  {% for c in certs %}
 
-{% for myimage in image_files %}
-{% if myimage.path contains '/certificates/' %}
-  <tr>
-   <td>
-   <a href="{{myimage.path}}" target="_blank" ><i class="fas fa-file-alt"></i>  {{myimage.basename}}</a>
-   </td>
-  </tr>
+    <tr>
+     <td>
+     <a href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>  {{c.name}}</a>
+     </td>
+    </tr>
 
-{% endif %}
+  {% endfor %}
+  </table>
 {% endfor %}
-
-</table>

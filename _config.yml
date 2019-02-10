@@ -23,7 +23,7 @@ collections:
     output: true
   certificates:
     output: false
-  certificate-catergories:
+  certificate-categories:
     output: false
 
 
