@@ -25,6 +25,8 @@ collections:
     output: false
   certificate-categories:
     output: false
+  certificate-tags:
+    output: false
 
 
 # Build settings

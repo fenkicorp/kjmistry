@@ -26,6 +26,9 @@ icon: "fas fa-award"
     <tr>
      <td>
      <a href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>&nbsp;&nbsp;{{c.name}}</a>
+     {% for tag in c.tags%}
+      <span class="badge badge-secondary float-right mr-1">{{tag}}</span>
+     {% endfor %}
      </td>
     </tr>
     {% endif %}
