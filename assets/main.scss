@@ -1,26 +1,41 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-.animated{
-  -webkit-animation-duration:1s;
-  animation-duration:1s;
-  -webkit-animation-fill-mode:none!important;
-  animation-fill-mode:none!important;
+// Your variable overrides
+//$body-bg: #ddd;
+//$body-color: #000;
+
+$body-bg: transparent;
+$dark: #294058;
+
+@import 'bootstrap';
+
+
+html {
+  background: url(/images/back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@import "minima";
+.container{
+  background-color: white;
+}
 
 #kish {
    background-image: url('/images/kishbw.png');
-   width: 400px;
+   width: 300px;
    height: 300px;
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
+   border:1px solid black;
+
+   /*
    @include media-query($on-palm) {
          width:100%;
-   }
+   }*/
    &:hover {
       background-image: url('/images/kishc.png');
    }
-}
+};

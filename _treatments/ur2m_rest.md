@@ -6,14 +6,24 @@ description: UR2m composite before & after
 permalink: /treatments/ur2m_rest/
 order: 8
 ---
+## {{page.title}}
 
-<table class="image">
-<caption align="bottom">Patient presented with UR2m failed composite restoration.</caption>
-<tr><td><img src="/images/ur2m/b4.jpg" alt=""/></td></tr>
-</table>
+<div class="row">
+  <div class="col-lg-6">
+    <figure class="figure">
+      <img src="/images/ur2m/b4.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">Patient presented with UR2m failed composite restoration.</figcaption>
+    </figure>
 
-<table class="image">
-<caption align="bottom">New composite restoration done.
-On Reflection - Mylar strip was used to recreate interproximal surface, PTFE tape would be more suitable in closing the contact more naturally. </caption>
-<tr><td><img src="/images/ur2m/after.jpg" alt=""/></td></tr>
-</table>
+  </div>
+
+  <div class="col-lg-6">
+    <figure class="figure">
+      <img src="/images/ur2m/after.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">New composite restoration done.
+      On Reflection - Mylar strip was used to recreate interproximal surface, PTFE tape would be more suitable in closing the contact more naturally. </figcaption>
+    </figure>
+
+  </div>
+
+</div>

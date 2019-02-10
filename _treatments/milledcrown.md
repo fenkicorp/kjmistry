@@ -6,7 +6,9 @@ description: Utilising Planmeca Romexis® software
 permalink: /treatments/milling-a-crown/
 order: 3
 ---
-![milled crown](/images/crown.jpg){:class="img-responsive"}
+## {{page.title}}
+
+![milled crown](/images/crown.jpg){:class="img-fluid"}
 Light occlusal contact points maintained
 
 {% include youtubePlayer.html id=page.youtubeId %}
