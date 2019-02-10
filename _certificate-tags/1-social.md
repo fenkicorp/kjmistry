@@ -1,4 +1,4 @@
 ---
 tagId: 1
-name: social
+name: Social
 ---
