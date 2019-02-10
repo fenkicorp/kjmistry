@@ -13,7 +13,7 @@ icon: "fas fa-award"
   <hr />
 
   <table class="table table-striped">
-  {% assign certs = site.certificates | where: "categoryId", 1 %}
+  {% assign certs = site.certificates | where: "categoryId", 1 | sort: "order" %}
   {% for c in certs %}
 
     <tr>
