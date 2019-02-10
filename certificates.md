@@ -13,15 +13,16 @@ icon: "fas fa-award"
   <hr />
 
   <table class="table table-striped">
-  {% assign certs = site.certificates | where: "categoryId", 1 | sort: "order" %}
+  {% assign certs = site.certificates | sort:"order" %}
   {% for c in certs %}
 
+    {% if c.categoryId == t.categoryId %}
     <tr>
      <td>
      <a href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>  {{c.name}}</a>
      </td>
     </tr>
-
+    {% endif %}
   {% endfor %}
   </table>
 {% endfor %}
