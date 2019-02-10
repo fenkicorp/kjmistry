@@ -27,7 +27,15 @@ icon: "fas fa-award"
      <td>
      <a href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>&nbsp;&nbsp;{{c.name}}</a>
      {% for tag in c.tags%}
-      <span class="badge badge-secondary float-right mr-1">{{tag}}</span>
+      {% assign tagLookup = site.certificate-tags %}
+        {% for tagLabel in tagLookup %}
+
+          {% if tagLabel.tagId == tag %}
+            <span class="badge badge-secondary float-right mr-1">
+              {{tagLabel.name | capitalize }}
+            </span>
+          {% endif %}
+        {% endfor %}
      {% endfor %}
      </td>
     </tr>
