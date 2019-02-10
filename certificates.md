@@ -29,7 +29,7 @@ icon: "fas fa-award"
         {% for tagLabel in tagLookup %}
 
           {% if tagLabel.tagId == tag %}
-            <span class="badge badge-secondary float-right mr-1">
+            <span class="badge badge-dark float-right mr-1">
               {{tagLabel.name | capitalize }}
             </span>
           {% endif %}

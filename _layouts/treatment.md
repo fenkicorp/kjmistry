@@ -9,7 +9,7 @@ layout: default
    {% for tagLabel in tagLookup %}
 
      {% if tagLabel.tagId == tag %}
-       <span class="badge badge-secondary ">
+       <span class="badge badge-dark ">
          {{tagLabel.name | capitalize }}
        </span>
      {% endif %}
