@@ -1,22 +1,19 @@
 ---
 layout: treatment
 title: Endodontic Radiographs
-youtubeId: LiFmmmU_ZL8
-description: Pre + post operative periapicals showing completed RCTs
+description: "Pre + post operative periapicals showing completed RCTs"
 permalink: /treatments/radiographs/
 order: 1
-tags: [4,21]
+tags: [4, 21]
 ---
 
 {% assign orderedTreatments = site.radiographs | sort:"order" %}
 {% for t in orderedTreatments %}
-
 <div class="card mt-4">
   <div class="card-body">
     <div class="card-title h6">
-     {{t.description}}
+     {{ t.description }}
     </div>
-
     <div class="row">
       <div class="col-md-6 text-center  animated fadeIn">
         <img src="{{t.image}}" class="img-fluid" />
@@ -27,5 +24,4 @@ tags: [4,21]
     </div>
   </div>
 </div>
-
 {% endfor %}
