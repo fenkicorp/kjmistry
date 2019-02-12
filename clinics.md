@@ -15,10 +15,10 @@ icon: "far fa-hospital"
     <div class="card">
       <div class="card-body">
         <div class="row">
-          <div class="col-2">
+          <div class="col-4 col-md-2">
             <img src="{{t.logoImage}}" class="img-fluid" alt="{{t.title}}">
           </div>
-          <div class="col-10">
+          <div class="col-8 col-md-10">
             <div class="card-title">
               <a href="{{t.clinicUrl}}" target="blank">{{t.title}} - <i class="fas fa-external-link-alt
 "></i></a>
