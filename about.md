@@ -6,7 +6,7 @@ icon: "far fa-user"
 ---
 
 
-
+<article>
 <div class="row align-items-center">
 
   <div class="col-md-5 text-center animated fadeIn">
@@ -55,3 +55,4 @@ GDC:277250</p>
   </div>
 
 </div>
+</article>
