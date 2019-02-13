@@ -1,9 +1,8 @@
 ---
 layout: treatment
 title: Accrington High Needs Case
-youtubeId: LiFmmmU_ZL8
 description: Uclan final year seen case presentation
-permalink: /treatments/uclan_final_case/
+permalink: /treatments/uclan-final-case/
 order: 6
 tags: [3,4,7,15,14,22]
 ---

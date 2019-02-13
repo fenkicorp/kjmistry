@@ -33,7 +33,7 @@
     {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a href="/" class="navbar-brand mb-0 h1">
                     <i class="fas fa-user-graduate fa-lg animated jackInTheBox"></i><span class="ml-2">{{site.title}}</span>
@@ -71,7 +71,7 @@
 
     </header>
 
-    <div class="container shadow  pt-5">
+    <div class="container shadow  pt-5 mt-4 ">
 
         {{content}}
 

@@ -1,9 +1,8 @@
 ---
 layout: treatment
 title: Upper Centrals Digital Wax Up
-youtubeId: LiFmmmU_ZL8
 description: Example of building composites through GIMP software
-permalink: /treatments/anterior_digital_composites/
+permalink: /treatments/anterior-digital-composites/
 order: 9
 tags: [2,3]
 ---

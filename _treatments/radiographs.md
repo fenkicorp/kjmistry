@@ -1,7 +1,7 @@
 ---
 layout: treatment
 title: Endodontic Radiographs
-description: "Pre + post operative periapicals showing completed RCTs"
+description: "Pre & post operative periapicals showing completed RCTs"
 permalink: /treatments/radiographs/
 order: 1
 tags: [4, 21]

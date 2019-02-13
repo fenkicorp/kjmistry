@@ -1,7 +1,6 @@
 ---
 layout: treatment
 title: DFT Restorative Case
-youtubeId: LiFmmmU_ZL8
 description: Management of a tooth wear case
 permalink: /treatments/dft_restorative_case/
 order: 5

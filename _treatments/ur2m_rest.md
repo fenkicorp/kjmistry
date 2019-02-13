@@ -1,9 +1,8 @@
 ---
 layout: treatment
 title: UR2m fractured composite restoration
-youtubeId: LiFmmmU_ZL8
 description: UR2m composite before & after
-permalink: /treatments/ur2m_rest/
+permalink: /treatments/ur2m-rest/
 order: 8
 tags: [3]
 ---
