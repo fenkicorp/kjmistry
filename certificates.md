@@ -21,7 +21,7 @@ icon: "fas fa-award"
 
     {% if c.categoryId == t.categoryId %}
     <li class="list-group-item">
-     
+
      <div class="row mb-2">
      <div class="col-12">
      {% for tag in c.tags%}
@@ -29,7 +29,7 @@ icon: "fas fa-award"
         {% for tagLabel in tagLookup %}
 
           {% if tagLabel.tagId == tag %}
-            <span class="badge badge-dark float-right ml-1">
+            <span class="badge badge-dark float-right ml-1 mb-1">
               {{tagLabel.name | capitalize }}
             </span>
           {% endif %}
@@ -39,7 +39,7 @@ icon: "fas fa-award"
      </div>
      <div class="row">
      <div class="col-12">
-     <a class="small" href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>&nbsp;&nbsp;{{c.name}}</a>
+     <a class="" href="{{c.filePath}}" target="_blank" ><i class="fas fa-file-alt"></i>&nbsp;&nbsp;{{c.name}}</a>
      </div>
      </div>
     </li>
