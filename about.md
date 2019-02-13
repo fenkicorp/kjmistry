@@ -32,12 +32,12 @@ GDC: 277250</p>
   <div class="card mb-3">
     <div class="card-body">
       <div class="row align-items-center">
-        <div class="col-md-2">
-            <a href="https://www.uclan.ac.uk/courses/bds_dentistry_graduate_entry.php">
+        <div class="col-sm-2 col-4">
+            <a target="blank1" href="https://www.uclan.ac.uk/courses/bds_dentistry_graduate_entry.php">
               <img src="/images/uclan.jpg" class="img-fluid">
             </a>
         </div>
-        <div class="col-md-10">
+        <div class="col-sm-10 col-8">
           <div class="card-title h6">
             University of Central Lancashire
           </div>
@@ -56,12 +56,12 @@ GDC: 277250</p>
   <div class="card mb-3">
     <div class="card-body">
       <div class="row align-items-center">
-        <div class="col-md-2">
-          <a href="https://www.manchester.ac.uk/study/undergraduate/courses/2019/01695/mpharm-pharmacy/">
+        <div class="col-sm-2 col-4">
+          <a target="blank2" href="https://www.manchester.ac.uk/study/undergraduate/courses/2019/01695/mpharm-pharmacy/">
               <img src="/images/manc.png" class="img-fluid">
           </a>
         </div>
-        <div class="col-md-10">
+        <div class="col-sm-10 col-8">
           <div class="card-title h6">
             University of Manchester
           </div>
