@@ -24,25 +24,25 @@ icon: "far fa-user"
   </h4>
 <p class="font-weight-light small text-muted">GPhC: 2075949,
 GDC: 277250</p>
-  <h4> Education
-  </h4>
+  <h4>Education</h4>
 
+  {% for e in site.data.education %}
 <div class="row">
   <div class="col-md-12 ">
   <div class="card mb-3">
     <div class="card-body">
       <div class="row align-items-center">
         <div class="col-sm-2 col-4">
-            <a target="blank1" href="https://www.uclan.ac.uk/courses/bds_dentistry_graduate_entry.php">
-              <img src="/images/uclan.jpg" class="img-fluid">
+            <a target="blank1" href="{{e.url}}">
+              <img src="{{e.image}}" class="img-fluid">
             </a>
         </div>
         <div class="col-sm-10 col-8">
           <div class="card-title h6">
-            University of Central Lancashire
+            {{e.uni}}
           </div>
           <div class="card-text">
-          <span class="text-muted">September 2014 - June 2018</span> - Bachelor of Dental Surgery
+            <span class="text-muted">{{e.from}} - {{e.to}}</span> - {{e.degree}}
           </div>
         </div>
       </div>
@@ -50,30 +50,7 @@ GDC: 277250</p>
   </div>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-md-12 ">
-  <div class="card mb-3">
-    <div class="card-body">
-      <div class="row align-items-center">
-        <div class="col-sm-2 col-4">
-          <a target="blank2" href="https://www.manchester.ac.uk/study/undergraduate/courses/2019/01695/mpharm-pharmacy/">
-              <img src="/images/manc.png" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-sm-10 col-8">
-          <div class="card-title h6">
-            University of Manchester
-          </div>
-          <div class="card-text">
-          <span class="text-muted">September 2006 - July 2010</span> - Master of Pharmacy
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
+  {% endfor %}
 
 
   <!--<h4>Interests</h4>-->
