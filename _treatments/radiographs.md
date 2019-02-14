@@ -7,7 +7,7 @@ order: 1
 tags: [4, 21]
 ---
 
-{% assign orderedTreatments = site.radiographs | sort:"order" %}
+{% assign orderedTreatments = site.data.radiographs | sort:"order" %}
 {% for t in orderedTreatments %}
 <div class="card mt-4">
   <div class="card-body">

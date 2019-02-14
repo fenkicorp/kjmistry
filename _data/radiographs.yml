@@ -1,0 +1,32 @@
+- description: LR5 + LR7 RCTs
+  order: 1
+  image: "/images/1/1.jpg"
+  image2: "/images/1/2.jpg"
+- description: LR5 - RCT through MCC *to fix*
+  order: 2
+  image: "/images/2/1.jpg"
+  image2: "/images/2/2.jpg"
+- description: UL1 RCT
+  order: 3
+  image: "/images/3/1.jpg"
+  image2: "/images/3/2.jpg"
+- description: UR6 RCT
+  order: 4
+  image: "/images/4/1.jpg"
+  image2: "/images/4/2.jpg"
+- description: UL6 RCT
+  order: 5
+  image: "/images/5/1.jpg"
+  image2: "/images/5/2.jpg"
+- description: UR3 Re-RCT
+  order: 6
+  image: "/images/6/1.jpg"
+  image2: "/images/6/2.jpg"
+- description: LL6 RCT
+  order: 7
+  image: "/images/7/1.jpg"
+  image2: "/images/7/2.jpg"
+- description: UL2 RCT - Reciproc Rotary system R50
+  order: 8
+  image: "/images/8/1.jpg"
+  image2: "/images/8/2.jpg"

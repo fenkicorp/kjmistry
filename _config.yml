@@ -19,8 +19,6 @@ collections:
     output: true
   clinics:
     output: false
-  radiographs:
-    output: false
   certificates:
     output: false
   certificate-categories:
