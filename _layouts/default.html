@@ -80,22 +80,29 @@
         </div>
         <footer class="mt-2">
 
-            <div class="row pt-3 pb-3">
+            <div class="row pt-2 pb-2">
 
-                <div class="col-md-5 text-center mt-3">
+                <div class="col-md-6 text-center mt-3">
                     <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
                     <br />
                 </div>
-                <div class="col-md-2 text-center mt-3">
-                    <a target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="fab fa-linkedin fa-2x text-muted"></i></a>
-                </div>
-                <div class="col-md-5 text-center text-lg-right text-muted mt-3">
+
+                <div class="col-md-6 text-center text-lg-right text-muted mt-3">
                     {{site.description}}
                 </div>
 
             </div>
+            <div class="row pb-3 justify-content-center">
 
-            <div class="row pt-3 pb-5 text-center">
+
+
+                <div class="col-md-1 text-center">
+                    <a target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="fab fa-linkedin fa-2x text-muted"></i></a>
+                </div>
+
+
+            </div>
+            <div class="row pt-1 pb-5 text-center">
                 <div class="col-12">
                     <small>Copyright &copy; {{ 'now' | date: "%Y" }} - {{site.title}} | Designed by <a href="http://pjmsoftwaresolutions.com">PJM Software Solutions Ltd</a></small>
                 </div>

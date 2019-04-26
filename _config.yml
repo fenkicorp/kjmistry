@@ -1,7 +1,8 @@
 title: "Kishan Mistry"
 email: kishanjaymistry@gmail.com
 description:  # this means to ignore newlines until "baseurl:"
-  Newly qualified dentist from University of Central Lancashire 2018.
+  Newly qualified dentist from University of Central Lancashire 2018
+  <br>
   Degree in Pharmacy 2010
 author: "Kishan Mistry"
 baseurl: "" # the subpath of your site, e.g. /blog

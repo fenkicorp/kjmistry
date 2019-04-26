@@ -22,7 +22,7 @@ icon: "far fa-user"
 
   <h4> Dr Kishan Mistry MPharm BDS
   </h4>
-<p class="font-weight-light small text-muted">GPhC: 2075949,
+<p class="font-weight-light small text-muted">
 GDC: 277250</p>
   <h4>Education</h4>
 
@@ -32,17 +32,26 @@ GDC: 277250</p>
   <div class="card mb-3">
     <div class="card-body">
       <div class="row align-items-center">
-        <div class="col-sm-2 col-4">
+        <div class="col-sm-2 col-12">
             <a target="blank1" href="{{e.url}}">
               <img src="{{e.image}}" class="img-fluid">
             </a>
         </div>
-        <div class="col-sm-10 col-8">
+        <div class="col-sm-10 col-12">
           <div class="card-title h6">
             {{e.uni}}
           </div>
           <div class="card-text">
             <span class="text-muted">{{e.from}} - {{e.to}}</span> - {{e.degree}}
+            {% if e.youtubeId %}
+            <div class="row mt-3">
+              <div class="col-md-9">
+                <div class="embed-responsive embed-responsive-16by9">
+                  {% include youtubePlayer.html id=e.youtubeId %}
+                </div>
+              </div>
+            </div>
+            {% endif  %}
           </div>
         </div>
       </div>
