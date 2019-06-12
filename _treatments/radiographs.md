@@ -22,6 +22,9 @@ tags: [4, 21]
         <img src="{{t.image2}}" class="img-fluid" />
       </div>
     </div>
+    <div class="mt-3">
+       {{ t.text }}
+    </div>
   </div>
 </div>
 {% endfor %}
