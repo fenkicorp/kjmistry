@@ -30,7 +30,11 @@ icon: "fas fa-award"
 
           {% if tagLabel.tagId == tag %}
             <span class="badge badge-dark float-right ml-1 mb-1">
-              {{tagLabel.name | capitalize }}
+              {% if tagLabel.uppercase == 'y' %}
+                {{tagLabel.name | upcase }}
+              {% else  %}
+                {{tagLabel.name | capitalize }}
+              {% endif  %}
             </span>
           {% endif %}
         {% endfor %}
