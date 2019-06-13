@@ -1,6 +1,6 @@
 ---
 layout: treatment
-title: Endodontic Radiographs
+title: DFT - Endodontic Radiographs
 description: "Pre & post operative periapicals showing completed RCTs"
 permalink: /treatments/radiographs/
 order: 1

@@ -1,9 +1,9 @@
 ---
 layout: treatment
-title: Upper Centrals Digital Wax Up
+title: DFT - Upper Centrals Digital Wax Up
 description: Example of building composites through GIMP software
 permalink: /treatments/anterior-digital-composites/
-order: 9
+order: 6
 tags: [2,3]
 ---
 

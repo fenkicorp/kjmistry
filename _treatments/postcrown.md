@@ -1,33 +1,60 @@
 ---
 layout: treatment
-title: Post Crown
+title: Uni - Post Crown
 description: Bent post from heavy occlusion
 permalink: /treatments/postcrown/
-order: 4
+order: 9
 tags: [12,7]
 ---
+<div class="row">
+  <div class="col-md-6">
+    <figure class="figure">
+      <img src="/images/post/final.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">Periapical showing a mobile UL1 post crown bucally placed. UL1 post crown has been there ~ 10 years.</figcaption>
+    </figure>
 
-<table class="image">
-<caption align="bottom">Periapical showing a mobile UL1 post crown bucally placed. UL1 post crown has been there ~ 10 years</caption>
-<tr><td><img src="/images/post/final.jpg" alt=""/></td></tr>
-</table>
+  </div>
 
-<table class="image">
-<caption align="bottom">On removal, post is bent. Patient was unaware of heavy occlusion.</caption>
-<tr><td><img src="/images/post/bentpost.jpg" alt=""/></td></tr>
-</table>
+  <div class="col-md-6">
+    <figure class="figure">
+      <img src="/images/post/bentpost.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">On removal, post is bent. Patient was unaware of heavy occlusion.</figcaption>
+    </figure>
 
-<table class="image">
-<caption align="bottom">A better angled PA shows periapical radiolucency on UL1, and slightly short obturation.</caption>
-<tr><td><img src="/images/post/prep.jpg" alt=""/></td></tr>
-</table>
+  </div>
 
-<table class="image">
-<caption align="bottom">Protaper hand files used. MC radiograph taken > close to apex -within 0.5mm.</caption>
-<tr><td><img src="/images/post/rct1.jpg" alt=""/></td></tr>
-</table>
+</div>
 
-<table class="image">
-<caption align="bottom">Post-op radiograph. New indirect post crown constructed after.</caption>
-<tr><td><img src="/images/post/complete.jpg" alt=""/></td></tr>
-</table>
+<div class="row">
+  <div class="col-md-6">
+    <figure class="figure">
+      <img src="/images/post/prep.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">A better angled PA shows periapical radiolucency on UL1, and slightly short obturation.</figcaption>
+    </figure>
+
+  </div>
+
+  <div class="col-md-6">
+    <figure class="figure">
+      <img src="/images/post/rct1.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">Protaper hand files used. MC radiograph taken > close to apex -within 0.5mm.</figcaption>
+    </figure>
+
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <figure class="figure">
+      <img src="/images/post/complete.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">Post-op radiograph. New indirect post crown constructed after.</figcaption>
+    </figure>
+
+  </div>
+
+
+
+
+
+</div>

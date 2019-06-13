@@ -1,9 +1,9 @@
 ---
 layout: treatment
-title: UR2m fractured composite restoration
+title: DFT - UR2m fractured composite restoration
 description: UR2m composite before & after
 permalink: /treatments/ur2m-rest/
-order: 8
+order: 7
 tags: [3]
 ---
 
