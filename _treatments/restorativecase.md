@@ -1,13 +1,13 @@
 ---
 layout: treatment
 title: DFT Restorative Case
-description: Management of a tooth wear case
+description: Management of a patient with tooth wear during my dental foundation training.
 permalink: /treatments/dft_restorative_case/
 order: 5
 tags: [3,2,7,11,14]
 ---
 
-This case shows the management of a tooth wear patient during my dental foundation training.
+
 
 <p class="d-block d-sm-none pb-4">
 <a href="/assets/restorative.pdf">
