@@ -26,3 +26,13 @@ tags: [3]
   </div>
 
 </div>
+
+
+<div class="col-lg-12">
+  <figure class="figure">
+    <img src="/images/ur2m/full1.jpg" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption text-center">Forgot to remove cotton wool roll :) Overall the patient was much happier with the restoration appearance than before. Patient requested for UL2m composite to be replaced. </figcaption>
+  </figure>
+
+
+</div>
