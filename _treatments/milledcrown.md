@@ -90,7 +90,7 @@ tags: [2,12]
 <div class="row">
   <div class="col-md-6">
     <figure class="figure">
-      <img src="/images/cadcam/bite.jpg" class="figure-img img-fluid rounded" alt="...">
+      <img src="/images/cadcam/bite1.jpg" class="figure-img img-fluid rounded" alt="...">
       <figcaption class="figure-caption text-center">Patient was not happy with upper central incisor length.</figcaption>
     </figure>
 
