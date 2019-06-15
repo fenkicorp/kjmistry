@@ -56,6 +56,13 @@
                                 {% assign orderedTreatments = site.treatments | sort:"order"%} {% for t in orderedTreatments %}
                                 <a class="dropdown-item {% if page.url == t.url %}active{% endif %}" href="{{t.url}}">{{t.title}}</a> {% endfor %}
                             </div>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                {% assign orderedTreatments = site.currentcases | sort:"order"%} {% for t in orderedCurrentcases %}
+                                <a class="dropdown-item {% if page.url == t.url %}active{% endif %}" href="{{t.url}}">{{t.title}}</a> {% endfor %}
+                            </div>
+
                         </li>
                         {%- else -%}
                         <li class="nav-item {% if page.url == my_page.url %}active{% endif %}">
