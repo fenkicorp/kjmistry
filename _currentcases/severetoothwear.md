@@ -10,7 +10,7 @@ tags: [2,3]
 <div class="row">
   <div class="col-md-6">
     <figure class="figure">
-      <img src="/images/current/rk/1.jpg" class="figure-img img-fluid rounded" alt="...">
+      <img src="/images/rk/1.jpg" class="figure-img img-fluid rounded" alt="...">
       <figcaption class="figure-caption text-center">Frontal view, teeth parted</figcaption>
     </figure>
 
@@ -18,7 +18,7 @@ tags: [2,3]
 
   <div class="col-md-6">
     <figure class="figure">
-      <img src="/images/current/rk/2.jpg" class="figure-img img-fluid rounded" alt="...">
+      <img src="/images/rk/2.jpg" class="figure-img img-fluid rounded" alt="...">
       <figcaption class="figure-caption text-center">Frontal view in occlusion</figcaption>
     </figure>
 
