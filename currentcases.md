@@ -2,7 +2,7 @@
 layout: default
 title: Current cases
 permalink: currentcases
-icon: "fas fa-tooth"
+icon: "fas fa-user-md"
 ---
 ## Current Cases
 
