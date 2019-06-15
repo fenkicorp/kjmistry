@@ -6,6 +6,7 @@ icon: "fas fa-user-md"
 ---
 ## Current Cases
 
+Some cases that I have recently started - further photos will be added.
 
 <table class="table table-striped">
 <tbody>
