@@ -9,7 +9,7 @@ tags: [12,7]
 <div class="row">
   <div class="col-md-6">
     <figure class="figure">
-      <img src="/images/post/final.jpg" class="figure-img img-fluid rounded" alt="...">
+      <img src="/images/post/final1.jpg" class="figure-img img-fluid rounded" alt="...">
       <figcaption class="figure-caption text-center">Periapical showing a mobile UL1 post crown bucally placed. UL1 post crown has been there ~ 10 years.</figcaption>
     </figure>
 
