@@ -3,7 +3,7 @@ layout: treatment
 title: Lower crown replacements
 description: A previous dentist replaced patient's upper crowns with zirconia crowns. Patient would like lowers being replaced too.
 permalink: /currentcases/lowercrowns/
-order: 1
+order: 3
 tags: [12, 14]
 ---
 
