@@ -47,7 +47,7 @@ tags: [12,7]
 <div class="row">
   <div class="col-md-6">
     <figure class="figure">
-      <img src="/images/post/complete.jpg" class="figure-img img-fluid rounded" alt="...">
+      <img src="/images/post/complete1.jpg" class="figure-img img-fluid rounded" alt="...">
       <figcaption class="figure-caption text-center">Post-op radiograph. New indirect post crown constructed after.</figcaption>
     </figure>
 
