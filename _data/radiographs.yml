@@ -4,11 +4,11 @@
   image2: "/images/1/2.jpg"
   text: "On reflection, LR5 + LR6m GP's are slightly short from radiographic apex."
 
-- description: LR5 - RCT through MCC *to fix*
+- description: LR6 RCT - file fracture
   order: 2
   image: "/images/2/1.jpg"
   image2: "/images/2/2.jpg"
-  text: ""
+  text: "As the last canal was being prepared with rotary files (CMA System), the apical portion of the file separated. It occurred as I was preparing the ML canal from 4% to 6% tapering. In the future, longer irritation and more frequent recapitulation can minimise this risk. The patient was informed and I explained the prognosis is still good and showed examples of other completed RCTs. "
 
 - description: UL1 RCT
   order: 3
@@ -22,11 +22,11 @@
   image2: "/images/4/2.jpg"
   text: "UR6 MB and P GPs are overlapping."
 
-- description: UL6 RCT
+- description: UL6 RCT - 16 year old male
   order: 5
   image: "/images/5/1.jpg"
   image2: "/images/5/2.jpg"
-  text: ""
+  text: "Awaiting post-operative radiograph in next visit - to update"
 
 - description: UR3 Re-RCT
   order: 6
@@ -45,3 +45,9 @@
   image: "/images/8/1.jpg"
   image2: "/images/8/2.jpg"
   text: ""
+
+- description: UL4 RCT
+  order: 9
+  image: "/images/9/1.jpg"
+  image2: "/images/9/2.jpg"
+  text: "UL4 was TTP, UL5 felt slightly TTP. UL5 post crown has been present for several years. Informed the patient that we will monitor whether symptoms improve following UL4 RCT as the UL5 may require further treatment too."
