@@ -11,7 +11,7 @@ tags: [12, 14]
   <div class="col-md-6">
     <figure class="figure">
       <img src="/images/as/1.jpg" class="figure-img img-fluid rounded" alt="...">
-      <figcaption class="figure-caption text-center">Frontal view, colour difference not as obvious due to camera overexposure.</figcaption>
+      <figcaption class="figure-caption text-center">Frontal view, colour difference not as obvious due to flash reflections.</figcaption>
     </figure>
 
   </div>

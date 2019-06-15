@@ -3,7 +3,7 @@ layout: treatment
 title: Severe Toothwear Case
 description: Chef with severe attrition and acid erosion
 permalink: /currentcases/severetoothwear/
-order: 1
+order: 3
 tags: [2,3,7]
 ---
 
