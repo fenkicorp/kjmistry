@@ -11,10 +11,13 @@ google_analytics: UA-134142648-1
 header_pages:
   - about.md
   - treatments.md
+  - currentcases.md
   - certificates.md
   - clinics.md
 collections:
   treatments:
+    output: true
+  currentcases:
     output: true
   clinics:
     output: false
