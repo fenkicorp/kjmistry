@@ -4,7 +4,7 @@ title: DFT - Resin bonded bridge, 6 months later
 description: Initially the patient had active localised severe periodontitis on lower centrals. Grade 3 mobile, poor prognosis, non-vital. Patient could not afford implants, was happy having a bridge. Several bridge designs were considered. Due to moderate bone loss on the lower 2's and grade 2 mobility, the design involved also splinting from 3-3 to reduce mobility. The patient underwent periodontal treatment, IDC compliance improved, following lower central extractions, an immediate fit was done.
 permalink: /treatments/rbb_lowers/
 order: 4
-tags: [2,3]
+tags: [5,12]
 ---
 
 <div class="row">
