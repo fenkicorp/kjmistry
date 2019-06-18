@@ -15,6 +15,7 @@ header_pages:
   - events.md
   - certificates.md
   - clinics.md
+  - downloads.md
 collections:
   treatments:
     output: true

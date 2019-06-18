@@ -4,7 +4,7 @@ title: Events
 permalink: events
 icon: "fas fa-calendar-alt"
 ---
-### Events
+## Events
 
 <div class="accordion" id="accordionExample">
   <div class="card">
@@ -20,7 +20,7 @@ icon: "fas fa-calendar-alt"
       <div class="card-body">
       <div class="row">
 
-      
+
         <div class="col-md-6">
           <figure class="figure">
             <img src="/images/fiona/1d.jpg" class="figure-img img-fluid rounded" alt="...">
