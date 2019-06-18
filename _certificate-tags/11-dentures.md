@@ -1,4 +1,4 @@
 ---
 tagId: 11
-name: dentures
+name: Dentures
 ---

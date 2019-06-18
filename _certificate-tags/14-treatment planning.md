@@ -1,5 +1,5 @@
 ---
 tagId: 14
-name: treatment planning
+name: Treatment Planning
 
 ---

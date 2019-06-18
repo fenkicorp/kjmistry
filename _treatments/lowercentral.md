@@ -1,10 +1,11 @@
 ---
 layout: treatment
-title: DFT - Lower Anterior Digital Wax Up
+title: Lower Anterior Digital Wax Up
 description: Patient unsure on the appearance of a lower denture. GIMP used to show appearance.
 permalink: /treatments/lower-anterior-waxup/
 order: 4
 tags: [2,3]
+titletag: DFT
 ---
 
 <div class="row">

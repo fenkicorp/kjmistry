@@ -1,10 +1,11 @@
 ---
 layout: treatment
-title: Uni - Accrington High Needs Case
+title: Accrington High Needs Case
 description: Uclan final year seen case presentation
 permalink: /treatments/uclan-final-case/
 order: 8
 tags: [3,4,7,15,14,22]
+titletag: Uni
 ---
 
 Case demonstrating management of high caries risk and surgical extraction

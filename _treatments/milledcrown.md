@@ -1,10 +1,11 @@
 ---
 layout: treatment
-title: DFT - CAD/CAM Emax Crown
+title: CAD/CAM Emax Crown
 description: Utilising Planmeca Romexis® software
 permalink: /treatments/milling-a-crown/
 order: 3
 tags: [2,12]
+titletag: DFT
 ---
 
 <div class="row">

@@ -1,10 +1,11 @@
 ---
 layout: treatment
-title: Uni - Post Crown
+title: Post Crown
 description: Bent post from heavy occlusion
 permalink: /treatments/postcrown/
 order: 9
 tags: [12,7]
+titletag: Uni
 ---
 <div class="row">
   <div class="col-md-6">
