@@ -12,6 +12,7 @@ header_pages:
   - about.md
   - treatments.md
   - currentcases.md
+  - events.md
   - certificates.md
   - clinics.md
 collections:
