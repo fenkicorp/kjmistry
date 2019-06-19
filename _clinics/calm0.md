@@ -2,11 +2,11 @@
 layout: default
 title: Calm Dental Care, Urmston, Manchester
 youtubeId:
-description: Dental Foundation Training practice
+description: Associate Dentist - Wednesday & Thursday
 permalink: /clinics/calmdentalcare/
 clinicUrl: http://www.calmdentalcare.co.uk
-order: 3
-fromDate: Sept 2018
-toDate: Aug 2019
+order: 2
+fromDate: Sept 2019
+toDate: present
 logoImage: /images/calm.jpg
 ---
