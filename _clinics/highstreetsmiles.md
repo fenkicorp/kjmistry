@@ -8,5 +8,5 @@ clinicUrl: http://www.highstreetsmiles.com/
 order: 1
 fromDate: Sept 2019
 toDate: present
-logoImage: /images/highstreetsmiles.jpg
+logoImage: /images/highsteetsmiles.jpg
 ---
