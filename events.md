@@ -11,7 +11,7 @@ icon: "fas fa-calendar-alt"
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          *TO FIX* June 2019 DFT whiston Scheme - Antibiotic Prescribing Lecture
+          June 2019 DFT Whiston Scheme - Antibiotic Prescribing and Drug Interaction Lecture
         </button>
       </h2>
     </div>
