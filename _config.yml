@@ -29,6 +29,8 @@ collections:
     output: false
   certificate-tags:
     output: false
+  events:
+    output: false
 
 
 # Build settings
