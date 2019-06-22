@@ -7,7 +7,7 @@ icon: "fas fa-calendar-alt"
 
 <div class="container">
     <div class="page-header">
-        <h1 id="timeline">Events</h1>
+        <h2 id="timeline">Events</h2>
     </div>
     <ul class="timeline">
         {% assign sortedEvents = site.events | sort: 'order' | reverse %}
