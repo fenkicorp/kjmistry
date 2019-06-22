@@ -6,4 +6,5 @@ description:
       <img src="/images/digital1.jpg" class="figure-img img-fluid rounded" alt="...">
 side: left
 order: 1
+eventdotcolour: danger
 ---

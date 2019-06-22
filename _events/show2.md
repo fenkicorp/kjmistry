@@ -6,4 +6,5 @@ description:
       <img src="/images/show.png" class="figure-img img-fluid rounded" alt="...">
 side: left
 order: 3
+eventdotcolour: warning
 ---

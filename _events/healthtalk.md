@@ -11,5 +11,6 @@ description:
     The panel fire questions!
 
 side: right
+eventdotcolour: primary
 order: 2
 ---

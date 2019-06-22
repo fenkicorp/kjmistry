@@ -17,7 +17,7 @@ icon: "fas fa-calendar-alt"
           {% elsif event.side == 'right' %}
           <li class="timeline-inverted">
           {% endif %}
-            <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+            <div class="timeline-badge {{event.eventdotcolour}}"><i class="glyphicon glyphicon-check"></i></div>
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h4 class="timeline-title">{{ event.title }}</h4>
