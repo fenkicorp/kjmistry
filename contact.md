@@ -3,6 +3,7 @@ layout: default
 title: Contact
 permalink: contact
 icon: far fa-envelope
+sitemap: false
 ---
 ## Contact
 For lecture bookings, please use the form below.
@@ -13,6 +14,8 @@ For lecture bookings, please use the form below.
       <div class="col-md-6 col-md-offset-3">
         <div class="well well-sm">
           <form class="form-horizontal" action="https://formspree.io/{{site.email}}" method="post">
+
+					<input type="hidden" name="_next" value="/thank-you"/>
           <fieldset>
 
             <!-- Name input-->

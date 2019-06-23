@@ -4,7 +4,7 @@ sub-title: June 2019
 description:
       <img src="/images/pharm1.jpg" class="figure-img img-fluid rounded" alt="...">
  Delivered to foundation dentists on the Whiston Scheme. <br>
- Lecture available in <a href="https://kjmistry.co.uk/downloads">Downloads</a>
+ Lecture available in <a href="/downloads">Downloads</a>
 
 side: right
 order: 4
