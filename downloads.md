@@ -8,7 +8,16 @@ icon: "fas fa-file-download"
 
 <div class="list-group">
 
+  {% assign orderedDownloads = site.downloads | sort: 'order' | reverse %}
+  {% for d in orderedDownloads %}
+  <p>
+    <a href="{{ d.filePath }}" class="list-group-item list-group-item-action">
+      <i class="{{ d.icon }} text-primary fa-lg"></i> &nbsp; {{ d.name }}
+      <br>
+      <small class="text-muted">{{d.description}}</small>
+    </a>
+  </p>
 
-  <p><a href="/assets/abx2.pptm" class="list-group-item list-group-item-action"> <i class="far fa-file-powerpoint text-primary fa-lg"></i>    &nbsp; Antibiotic Prescribing and Drug Interactions  </a></p>
+  {% endfor %}
 
 </div>

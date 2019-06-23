@@ -13,7 +13,6 @@ icon: "far fa-hospital"
   {% for t in orderedClinics %}
   <div class="col-md-6 mb-3">
     <div class="card shadow-sm mb-1">
-      <div class="card">
         <div class="card-body">
           <div class="row align-items-center">
             <div class="col-4 col-md-2">
@@ -30,8 +29,6 @@ icon: "far fa-hospital"
         </div>
 
 
-
-      </div>
     </div>
   </div>
   {% endfor %}

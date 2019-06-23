@@ -29,7 +29,7 @@ GDC: 277250</p>
   {% for e in site.data.education %}
 <div class="row">
   <div class="col-md-12 ">
-  <div class="card mb-3">
+  <div class="card mb-3 shadow-sm">
     <div class="card-body">
       <div class="row align-items-center">
         <div class="col-sm-2 col-12">
