@@ -12,7 +12,7 @@ For lecture bookings, please use the form below.
 	<div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="well well-sm">
-          <form class="form-horizontal" action="" method="post">
+          <form class="form-horizontal" action="https://formspree.io/{{site.email}}" method="post">
           <fieldset>
 
             <!-- Name input-->
