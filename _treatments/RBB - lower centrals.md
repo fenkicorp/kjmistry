@@ -27,3 +27,12 @@ titletag: DFT
       </figcaption>
     </figure>
   </div>
+
+  <div class="col-lg-6">
+    <figure class="figure">
+      <img src="/images/np/33.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption text-center">
+        Baseline periapical before lower 1s were extracted
+      </figcaption>
+    </figure>
+  </div>
