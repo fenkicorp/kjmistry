@@ -51,3 +51,9 @@
   image: "/images/9/1.jpg"
   image2: "/images/9/2.jpg"
   text: "UL4 was TTP, UL5 felt slightly TTP. UL5 post crown has been present for several years. Informed the patient that we will monitor whether symptoms improve following UL4 RCT as the UL5 may require further treatment too."
+
+- description: LL6 RCT
+  order: 10
+  image: "/images/10/pre.jpg"
+  image2: "/images/10/post.jpg"
+  text: ""
