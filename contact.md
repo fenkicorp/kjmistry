@@ -6,7 +6,14 @@ icon: far fa-envelope
 sitemap: false
 ---
 ## Contact
-For lecture bookings, please use the form below.
+Please use the form below to contact me for the following or anything else:
+
+<ul class="list-unstyled">
+        <ul>
+            <li>Pharmacy related lecture bookings</li>
+            <li>Website design for individuals or practices</li>
+        </ul>
+</ul>
 
 
 <div class="container">
