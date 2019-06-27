@@ -5,7 +5,7 @@ description: "A range of pre & post-operative periapicals showing completed RCTs
 permalink: /treatments/radiographs/
 order: 1
 tags: [4, 21]
-titletag: DFT
+titletag: DFT + Uni
 ---
 
 {% assign orderedTreatments = site.data.radiographs | sort:"order" %}

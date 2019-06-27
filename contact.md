@@ -52,7 +52,7 @@ Please use the form below to contact me for the following or anything else:
             <!-- Form actions -->
             <div class="form-group">
               <div class="col-md-12 text-left">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                <button type="submit" class="btn btn-dark btn-lg">Submit</button>
               </div>
             </div>
           </fieldset>
