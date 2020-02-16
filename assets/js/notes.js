@@ -1,68 +1,84 @@
-//import angular from 'angular';
+/* eslint max-len: ["error", { "code": 1080 }]*/
+
+// import angular from 'angular';
 
 angular
-  .module('plunker', [], $interpolateProvider => {
-    $interpolateProvider.startSymbol('[[');
-    $interpolateProvider.endSymbol(']]');
-  })
-  .controller('MainCtrl', function($scope) {
+    .module('plunker', [], ($interpolateProvider) => {
+      $interpolateProvider.startSymbol('[[');
+      $interpolateProvider.endSymbol(']]');
+    })
+    .controller('MainCtrl', function($scope) {
+      const share = (t)=> {
+        const textToShare = t;
 
-  function share(t) {
-    var text_to_share = t;
+        // create temp element
+        const copyElement = document.createElement('span');
+        copyElement.appendChild(document.createTextNode(textToShare));
+        copyElement.id = 'tempCopyToClipboard';
+        angular.element(document.body.append(copyElement));
 
-    // create temp element
-    var copyElement = document.createElement('span');
-    copyElement.appendChild(document.createTextNode(text_to_share));
-    copyElement.id = 'tempCopyToClipboard';
-    angular.element(document.body.append(copyElement));
+        // select the text
+        const range = document.createRange();
+        range.selectNode(copyElement);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
 
-    // select the text
-    var range = document.createRange();
-    range.selectNode(copyElement);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
+        // copy & cleanup
+        document.execCommand('copy');
+        window.getSelection().removeAllRanges();
+        copyElement.remove();
+      };
 
-    // copy & cleanup
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-    copyElement.remove();
-  }
+      $scope.move = (note, dir) => {
+        if (dir > 0) {
+          const match = $scope.notes.filter((x) => x.order == (note.order + 1));
+          if (match != null && match.length > 0) {
+            match[0].order--;
+            note.order++;
+          }
+        }
 
-  $scope.move = (note, dir) => {
+        if (dir < 0) {
+          const match = $scope.notes.filter((x) => x.order == (note.order - 1));
+          if (match != null && match.length > 0) {
+            match[0].order++;
+            note.order--;
+          }
+        }
+        return false;
+      };
 
-  };
+      $scope.saveNote = () => {
+        console.log('here');
+        $scope.notes.push({
+          title: $scope.selectedNote.title,
+          body: $scope.selectedNote.body,
+          order: 3,
+        });
+        $scope.selectedNote = {};
+      };
 
-  $scope.saveNote = () => {
-    console.log('here');
-    $scope.notes.push({
-      title: $scope.selectedNote.title,
-      body: $scope.selectedNote.body,
-      order: 3
-    });
-    $scope.selectedNote = {};
-  };
+      $scope.addNote = () => {
+        $scope.selectedNote = {};
+      };
 
-  $scope.addNote = () => {
-    $scope.selectedNote = {};
-  };
+      $scope.copyNote = (n) => {
+        share(n.body);
+      };
 
-  $scope.copyNote = n => {
-    share(n.body)
-  };
+      $scope.editNote = (n) => {
+        console.log(n);
+        $scope.selectedNote = n;
+      };
 
-  $scope.editNote = n => {
-    console.log(n);
-    $scope.selectedNote = n;
-  };
+      $scope.deleteNote = (n) => {
+        $scope.notes.splice($scope.notes.indexOf(n), 1);
+      };
 
-  $scope.deleteNote = n => {
-    $scope.notes.splice($scope.notes.indexOf(n), 1);
-  };
-
-  $scope.notes = [
-    {
-      title: 'Exam',
-      body: `
+      $scope.notes = [
+        {
+          title: 'Exam',
+          body: `
       Exam
       PCO:nil
       MH/SH: Updated
@@ -93,11 +109,11 @@ angular
 
       TC B1. PTCA 6/12
       `,
-      order: 0
-    },
-    {
-      title: 'Tx Crown fit',
-      body: `rfa: crown fit
+          order: 0,
+        },
+        {
+          title: 'Tx Crown fit',
+          body: `rfa: crown fit
 pco: nil
 mh/sh: nc
 
@@ -114,14 +130,13 @@ tack cured > excess removed
 fully cured
 occl rechecked
 pt happy
-poig`
+poig`,
 
-      ,
-      order: 1
-    },
-    {
-      title: 'Tx Fills',
-      body: `rfa: fills
+          order: 1,
+        },
+        {
+          title: 'Tx Fills',
+          body: `rfa: fills
 mh/sh: nc
 pco: nil
 
@@ -135,15 +150,14 @@ amal placed
 etched, prime and bonded
 composite placed
 occl checked and adj
-poig`
+poig`,
 
-      ,
-      order: 2
-    },
+          order: 2,
+        },
 
-    {
-      title: 'Tx Crown Prep',
-      body: `rfa: Crown prep
+        {
+          title: 'Tx Crown Prep',
+          body: `rfa: Crown prep
 
 Discussed risks - non-vitalisation/ need for RCT/XLA in future
 Confirmed crown > silver B3. PFM, all white ~ £350-400
@@ -165,38 +179,35 @@ sent to rdl **
 return **
 
 nv
-crown fit`
+crown fit`,
 
-      ,
-      order: 3
-    },
+          order: 3,
+        },
 
-    {
-      title: 'Dx Perio',
-      body: `Generalised/ localised periodontitis Stage Grade,
+        {
+          title: 'Dx Perio',
+          body: `Generalised/ localised periodontitis Stage Grade,
 currently unstable with bop / currently stable/ currently in remission
-RF: Ex-Smoker / suboptimal plaque control`
+RF: Ex-Smoker / suboptimal plaque control`,
 
-      ,
-      order: 4
-    },
+          order: 4,
+        },
 
-    {
-      title: 'TP Perio',
-      body: `Informed patient of gum disease. Pt reports not TPing or flossing daily.
+        {
+          title: 'TP Perio',
+          body: `Informed patient of gum disease. Pt reports not TPing or flossing daily.
 Explained causes and progression of gum disease towards tooth loss.
 Adv daily IDC
 Offered pero tx adv benefit is limited if daily IDC is not done. Can reassess in 3/12 for pero tx.
 Pt understands and consents to be reassessed
-demo'd TPs. Explained the patient is responsible for controlling own gum disease, we offer adjunctive tx to aid cleaning deeper pockets if IDC complaint.`
+demo'd TPs. Explained the patient is responsible for controlling own gum disease, we offer adjunctive tx to aid cleaning deeper pockets if IDC complaint.`,
 
-      ,
-      order: 5
-    },
+          order: 5,
+        },
 
-    {
-      title: 'Tx Perio',
-      body: `rfa: perio tx
+        {
+          title: 'Tx Perio',
+          body: `rfa: perio tx
 pco: nil
 mh/sh: nc
 
@@ -214,15 +225,14 @@ checked with BPE probe - smooth surfaces
 
 Gross Scale done with USS/ HS
 polishing done
-TC`
+TC`,
 
-      ,
-      order: 6
-    },
+          order: 6,
+        },
 
-    {
-      title: 'Tx XLA',
-      body: `rfa: XLA
+        {
+          title: 'Tx XLA',
+          body: `rfa: XLA
 
 pco: nil
 mh/sh: nc
@@ -241,15 +251,14 @@ Apices intact
 HA
 POIG - written + verbal
 
-Pt well on leaving`
+Pt well on leaving`,
 
-      ,
-      order: 7
-    },
+          order: 7,
+        },
 
-    {
-      title: 'Tx RCT',
-      body: `rfa: RCT
+        {
+          title: 'Tx RCT',
+          body: `rfa: RCT
 pco: nil
 mh/sh: nc
 
@@ -289,16 +298,15 @@ GPs appear within 1 mm of apices
 showed pt
 
 NV
-crown prep`
+crown prep`,
 
 
-      ,
-      order: 8
-    },
+          order: 8,
+        },
 
-    {
-      title: 'TP Stabilisation',
-      body: `Stabilisation fills
+        {
+          title: 'TP Stabilisation',
+          body: `Stabilisation fills
 
 Informed pt of high decay risk
 Adv options: fills or leave and monitor (due to risk > pulpal involvement >RCT/XLA likely) Pt consents to fills b2
@@ -307,33 +315,31 @@ Will place stabilisation fills, when caries risk controlled > replace with defin
 Pt consents
 
 TP 5000ppm prescribed
-dietary advice given. Explained need to limit sugar intakes to less than 5 times day.`
+dietary advice given. Explained need to limit sugar intakes to less than 5 times day.`,
 
 
-      ,
-      order: 9
-    },
+          order: 9,
+        },
 
 
-    {
-      title: 'TP Fills',
-      body: `Informed pt decay is present. Caused by increased sugar frequency (>5 sugar intake daily) rather than amount eaten. Need to assess/control diet to prevent higher decay risk.
+        {
+          title: 'TP Fills',
+          body: `Informed pt decay is present. Caused by increased sugar frequency (>5 sugar intake daily) rather than amount eaten. Need to assess/control diet to prevent higher decay risk.
 Options:
 1 Fillings (nhs b2 amal or pvt white fills Q85 - 120
 2 Leave and monitor. Risk of decay worsening > long term possible infection into nerve requiring RCT/XLA
 
 Pp opts for**
-Due to higher decay risk - 3x NaF TP 5000ppm prescribed`
+Due to higher decay risk - 3x NaF TP 5000ppm prescribed`,
 
 
-      ,
-      order: 10
-    },
+          order: 10,
+        },
 
 
-    {
-      title: 'TP Infected Tooth',
-      body: `Prov dx:
+        {
+          title: 'TP Infected Tooth',
+          body: `Prov dx:
 Reversible/Irreversible pulpitis
 
 Explained to patient tooth has deep decay close to the nerves within tooth.
@@ -342,35 +348,32 @@ Adv temp filling today (possibility tooth becomes symptom free) - to monitor lon
 If pain worsens long term » tooth is infected > requires RCT b2+ possible crown B3/ XLA b2  - with gap > B3 bridge/denture/pvt implant ~ £1.8k
 
 pt understands + showed xray - deepness of decay with relation to nerve
-consents to temp fill today`
+consents to temp fill today`,
 
 
-      ,
-      order: 11
-    },
+          order: 11,
+        },
 
-    {
-      title: 'TP XLA/RCT/Gap',
-      body: `Adv tooth is infected
+        {
+          title: 'TP XLA/RCT/Gap',
+          body: `Adv tooth is infected
 
 1. Save tooth with RCT - Risk of hypochlorite incident, tooth perf, file fracture, RCT failure b2 (>retreatment). When done - filling (inc risk of fracture) or silver crown B3 (better long term prognosis) White crown £350-400.
 2. XLA gap > bridge b3, denture b3, implant ~ Q1800.
 3. Leave - infection can worsen and affect adjacent dentition. Can possibly become life-threatening if infection spreads and affects breathing.
 
-Pt opts for: `
+Pt opts for: `,
 
 
-      ,
-      order: 12
-    },
+          order: 12,
+        },
 
-    {
-      title: 'x',
-      body: `x`
+        {
+          title: 'x',
+          body: `x`,
 
 
-      ,
-      order: 7
-    },
-  ];
-});
+          order: 13,
+        },
+      ];
+    });

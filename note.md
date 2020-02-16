@@ -37,7 +37,7 @@ icon: "fas fa-calendar-alt"
 
     <h4>Notes</h4>
     <div class="row">
-      <div class="col-12 col-sm-4 mb-4" ng-repeat="n in notes">
+      <div class="col-12 col-sm-4 mb-4" ng-repeat="n in notes | orderBy: 'order'">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
@@ -46,12 +46,12 @@ icon: "fas fa-calendar-alt"
                   [[n.title]]
                 </div>
                 <div class="col-12 col-md-4 text-right">
-                  <a href="#" class="btn btn-secondary btn-sm" ng-click="move(n, -1)">
+                  <button class="btn btn-secondary btn-sm" ng-click="move(n, -1)" ng-disabled="n.order===0">
                     <i class="fas fa-chevron-circle-left"></i>
-                  </a>
-                  <a href="#" class="btn btn-secondary btn-sm" ng-click="move(n, 1)">
+                  </button>
+                  <button class="btn btn-secondary btn-sm" ng-click="move(n, 1)" ng-disabled="n.order===(notes.length-1)">
                     <i class="fas fa-chevron-circle-right"></i>
-                  </a>
+                  </button>
                 </div>
               </div>
             </h5>
