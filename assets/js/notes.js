@@ -11,10 +11,8 @@ angular
       const share = (t)=> {
         const textToShare = t;
 
-        $scope.notes = [];
-
         // create temp element
-        const copyElement = document.createElement('span');
+        const copyElement = document.createElement('textarea');
         copyElement.appendChild(document.createTextNode(textToShare));
         copyElement.id = 'tempCopyToClipboard';
         angular.element(document.body.append(copyElement));

@@ -8,6 +8,18 @@ icon: "fas fa-calendar-alt"
 
     <div class="row mb-3 mt-3">
       <div class="col-12">
+        <form>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" ng-model="password"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="row mb-3 mt-3">
+      <div class="col-12">
         <button class="btn btn-dark" ng-click="addNote()">Add Note</button>
       </div>
     </div>
