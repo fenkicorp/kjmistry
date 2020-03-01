@@ -37,6 +37,11 @@ icon: "fas fa-calendar-alt"
 
     <h4>Notes</h4>
     <div class="row">
+
+      <div class="col-12"  ng-show="loadingNotes">
+      <button disabled="disabled">Loading</button>
+      </div>
+
       <div class="col-12 col-sm-4 mb-4" ng-repeat="n in notes | orderBy: 'order'">
         <div class="card">
           <div class="card-body">

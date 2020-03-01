@@ -7,9 +7,11 @@ angular
       $interpolateProvider.startSymbol('[[');
       $interpolateProvider.endSymbol(']]');
     })
-    .controller('MainCtrl', function($scope) {
+    .controller('MainCtrl', function($scope, $http) {
       const share = (t)=> {
         const textToShare = t;
+
+        $scope.notes = [];
 
         // create temp element
         const copyElement = document.createElement('span');
@@ -27,6 +29,16 @@ angular
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
         copyElement.remove();
+      };
+
+      const loadNotes = () => {
+        $scope.loadNotes = true;
+
+        $http.get('https://noteassistant.azurewebsites.net/note')
+            .then((d) => {
+              $scope.notes = d.data;
+              $scope.loadNotes = false;
+            });
       };
 
       $scope.move = (note, dir) => {
@@ -49,12 +61,20 @@ angular
       };
 
       $scope.saveNote = () => {
-        console.log('here');
-        $scope.notes.push({
+        debugger;
+        const updatedNote= {
           title: $scope.selectedNote.title,
           body: $scope.selectedNote.body,
+          partitionKey: $scope.selectedNote.partitionKey || 'kish',
+          rowKey: $scope.selectedNote.rowKey || '-1',
           order: 3,
-        });
+        };
+
+
+        $http.post('https://noteassistant.azurewebsites.net/note', updatedNote)
+            .then((d) => {
+              loadNotes();
+            });
         $scope.selectedNote = {};
       };
 
@@ -72,10 +92,18 @@ angular
       };
 
       $scope.deleteNote = (n) => {
-        $scope.notes.splice($scope.notes.indexOf(n), 1);
+        $http.delete('https://noteassistant.azurewebsites.net/note', {
+          data: n,
+          headers: {'content-type': 'application/json'},
+        })
+            .then((d) => {
+              loadNotes();
+            });
       };
 
-      $scope.notes = [
+      loadNotes();
+
+      $scope.notes2 = [
         {
           title: 'Exam',
           body: `
